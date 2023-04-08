@@ -42,7 +42,7 @@
                     <div class="box-header with-border">
                         <i class="fa fa-bullhorn"></i>
                         <b style="font-size: 12pt">LAYANAN INFORMASI</b>
-                        <u><a href="<?= base_url('pelanggan/informasi') ?>">Help Desk</a></u>
+                        <u><a href="<?= base_url('panitia/informasi') ?>">Edit informasi</a></u>
                         <div class="box-tools pull-right">
                         </div>
                     </div>

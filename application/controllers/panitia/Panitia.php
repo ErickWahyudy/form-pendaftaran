@@ -25,7 +25,7 @@ class Panitia extends CI_controller
     //panitia
     public function index($value='')
     {
-     $view = array('judul'     =>'Data Angkatan',
+     $view = array('judul'     =>'Data Panitia',
                    'data'      =>$this->m_panitia->view(),);
       $this->load->view('panitia/panitia',$view);
     }

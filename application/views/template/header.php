@@ -140,7 +140,7 @@ if($this->session->userdata('level') =="Administrator"){
               <?php }elseif($this->session->userdata('level') == "Panitia"){ ?>
                 <li class="user-footer">
                 <div class="pull-left">
-                  <a href="<?= base_url('pelanggan/profile') ?>" class="btn btn-default btn-flat">Profile</a>
+                  <a href="<?= base_url('panitia/profile') ?>" class="btn btn-default btn-flat">Profile</a>
                 </div>
                 <div class="pull-right">
                 <a href="javascript:void(0)" onclick="keluar()" class="btn btn-default btn-flat">Sign out</a>
@@ -225,8 +225,8 @@ if($this->session->userdata('level') =="Administrator"){
       
   </li> 
   <li class="header">OTHER</li>
+      <li><a href="<?= base_url('panitia/informasi'); ?>"><i class="fa fa-bullhorn"></i> Layanan Informasi </a></li>
       <li><a href="<?= base_url('panitia/profile'); ?>"><i class="fa fa-user"></i>Data Profile</a></li>
-      <li><a href="<?= base_url('panitia/informasi'); ?>"><i class="fa fa-bullhorn"></i> Informasi</a></li>
    </li> 
   
 <?php } ?>

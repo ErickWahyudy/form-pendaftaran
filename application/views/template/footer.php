@@ -1,6 +1,5 @@
 </div>
 
-
    </div>
     </div>
     </section>
@@ -52,7 +51,8 @@
         });
     }
     </script>
-
+    <?php $this->load->view('template/akses'); ?>
+    
   <footer class="main-footer">
     <strong>Copyright &copy; <?php echo date('Y'); ?>
 					<a href="https://bit.ly/kassandrahdproduction" target="blank">Kassandra Production</a>.</strong> All rights reserved. APP Version 2.0.0
